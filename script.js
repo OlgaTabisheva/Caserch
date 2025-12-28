@@ -60,15 +60,15 @@ const render =  (cardList)=>{
     cardWrapper.innerHTML = ''
     cardList.forEach((item, i) => {
         cardWrapper.insertAdjacentHTML('beforeend', `
-                 <a href="/product.html" class="content-main_list-item">
-                                <div class="content-main_list-item-image">
+                 <a href="/product.html" className="content-main_list-item">
+                                <div className="content-main_list-item-image">
                                     <img src="${item.image}" alt="${item.title}">
                                 </div>
-                                <h5 class="content-main_list-item-title">${item.title}</h5>
-                                <strong class="content-main_list-item-price">${item.price}</strong>
-                                <div class="content-main_list-item-desk-block">
-                                    <span class="content-main_list-item-desk">${item.adress}</span>
-                                    <span class="content-main_list-item-desk">${item.date}</span>
+                                <h5 className="content-main_list-item-title">${item.title}</h5>
+                                <strong className="content-main_list-item-price">${item.price}</strong>
+                                <div className="content-main_list-item-desk-block">
+                                    <span className="content-main_list-item-desk">${item.adress}</span>
+                                    <span className="content-main_list-item-desk">${item.date}</span>
 
                                 </div>
                             </a>

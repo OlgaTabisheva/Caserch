@@ -171,14 +171,14 @@ text-decoration: none;
 
 }
 
-.content-side_list-item {
+.card {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 
 }
 
-.content-side_list-item_title {
+.card_title {
     margin-top: 7px;
     margin-bottom: 5px;
     font-size: 14px;
@@ -186,7 +186,7 @@ text-decoration: none;
     font-weight: 700;
 }
 
-.content-side_list-item_text {
+.card_text {
     font-size: 14px;
     line-height: 16px;
 }
